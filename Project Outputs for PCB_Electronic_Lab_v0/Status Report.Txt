@@ -1,10 +1,9 @@
-Output: Mixed Sim
-Type  : AdvSimNetlist
-From  : Project [PCB_Electronic_Lab_v0.PrjPcb]
-   Generated File[PCB_Electronic_Lab_v0.nsx]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [PCB_Electronic_Lab_v0.PrjPcb]
 
 
-Files Generated   : 1
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 07:17:25 On 21.09.2018
+Finished Output Generation At 17:14:46 On 27.09.2018

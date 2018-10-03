@@ -1,0 +1,11 @@
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\CMSIS\Driver\I2C_STM32F4xx.c
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\CMSIS\Driver\I2C_STM32F4xx.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_I2C.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_Common.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+.\objects\i2c_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS-Driver_Validation\1.1.0\Boards\Keil\MCBSTM32F400\CMSIS_DV_API\RTE\Device\STM32F407IGHx\stm32f4xx_hal_conf.h
+.\objects\i2c_stm32f4xx.o: .\RTE\_Target_1\RTE_Components.h

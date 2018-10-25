@@ -2351,10 +2351,14 @@ GenerateClassCluster=0
 DocumentUniqueId=VSBCTVPC
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.nsx
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\Design Rule Check - PCB2.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.nsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=PCB_Electronic_Lab_v0.xls
 DItemRevisionGUID=
 

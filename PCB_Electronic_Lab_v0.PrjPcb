@@ -2370,6 +2370,10 @@ DItemRevisionGUID=
 DocumentPath=PCB_Electronic_Lab_v0.xls
 DItemRevisionGUID=
 
+[GeneratedDocument6]
+DocumentPath=Default Configuration\SystemBOM.xml
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=C:\Users\Public\Documents\Altium\AD16\Library\*.*
 IncludeSubFolders=1
@@ -2667,7 +2671,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=Filter
 Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1000|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Item3=OpenExported=False|AddToProject=True|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1115|FormHeight=661|SupplierProdQty=2|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=PCBDocument

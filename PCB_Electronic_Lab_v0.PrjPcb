@@ -2363,14 +2363,18 @@ DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\Driver&Converter.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.nsx
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB2.xls
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=PCB_Electronic_Lab_v0.xls
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.nsx
 DItemRevisionGUID=
 
 [GeneratedDocument6]
+DocumentPath=PCB_Electronic_Lab_v0.xls
+DItemRevisionGUID=
+
+[GeneratedDocument7]
 DocumentPath=Default Configuration\SystemBOM.xml
 DItemRevisionGUID=
 

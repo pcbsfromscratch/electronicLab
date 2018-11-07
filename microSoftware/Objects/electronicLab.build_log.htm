@@ -9,30 +9,38 @@ License Information: s riv, jskd, LIC=----
  
 Tool Versions:
 Toolchain:       MDK-Lite  Version: 5.25.2.0
-Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 6 (build 750)
-Assembler:       Armasm.exe V5.06 update 6 (build 750)
-Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
-Library Manager: ArmAr.exe V5.06 update 6 (build 750)
-Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.9
+Assembler:       Armasm.exe V6.9
+Linker/Locator:  ArmLink.exe V6.9
+Library Manager: ArmAr.exe V6.9
+Hex Converter:   FromElf.exe V6.9
 CPU DLL:         SARMCM3.DLL V5.25.2.0
-Dialog DLL:      DCM.DLL V1.17.1.0
-Target DLL:      UL2CM3.DLL V1.160.12.0
-Dialog DLL:      TCM.DLL V1.35.1.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
  
 <h2>Project:</h2>
 C:\Users\Public\Documents\Altium\Projects\PCB_Electronic_Lab_v0\electronicLab\microSoftware\electronicLab.uvprojx
-Project File Date:  10/03/2018
+Project File Date:  11/04/2018
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+*** Using Compiler 'V6.9', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
-assembling ASM_NewProject.s...
-assembling startup_stm32f401xc.s...
-compiling system_stm32f4xx.c...
+compiling system_stm32f0xx.c...
+compiling I2C_STM32F0xx.c...
+compiling main.c...
+C:/Keil_v5/ARM/PACK/Keil/STM32F0xx_DFP/2.0.0/CMSIS/Driver/SPI_STM32F0xx.c(117): warning: "::Device:STM32Cube Framework: SPI Not configured." [-W#warnings]
+  #warning "::Device:STM32Cube Framework: SPI Not configured."
+   ^
+1 warning generated.
+compiling SPI_STM32F0xx.c...
 linking...
-Program Size: Code=188 RO-data=404 RW-data=0 ZI-data=1536  
-".\Objects\electronicLab.axf" - 0 Error(s), 0 Warning(s).
+.\Objects\electronicLab.axf: Error: L6218E: Undefined symbol HAL_I2C_GetError (referred from i2c_stm32f0xx.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\electronicLab.axf" - 1 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -40,35 +48,52 @@ Package Vendor: ARM
                 http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
                 ARM.CMSIS.5.4.0
                 CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: I2C Version: 2.3.0
+   * Component: SPI Version: 2.2.0
    * Component: CORE Version: 5.1.2
    * Component: DSP Version: 1.5.2
 
 Package Vendor: Keil
-                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
-                Keil.STM32F4xx_DFP.2.13.0
-                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
-   * Component: Startup Version: 2.6.2
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: I2C Version: 1.0.0
+   * Component: SPI Version: 1.0.0
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_Target_1
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\DSP\Include
-  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
 
 <h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:I2C:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+
+   * Component: ::CMSIS Driver:SPI:2.2.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_SPI.h
 
    * Component: ARM::CMSIS:CORE:5.1.2
 
    * Component: ARM::CMSIS:DSP:1.5.2
+      Library file:  CMSIS\Lib\ARM\arm_cortexM0l_math.lib
       Include file:  CMSIS\DSP\Include\arm_math.h
-      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
 
-   * Component: Keil::Device:Startup:2.6.2
-      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
-      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
-      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xc.s
-      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+   * Component: Keil.Standalone::Device:Startup:1.0.0
+      Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f030x6.s
+      Source file:   MDK\Device\Source\ARM\STM32F0xx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c
+
+   * Component: Keil::CMSIS Driver:I2C:1.0.0
+      Source file:   CMSIS\Driver\I2C_STM32F0xx.c
+
+   * Component: Keil::CMSIS Driver:SPI:1.0.0
+      Source file:   CMSIS\Driver\SPI_STM32F0xx.c
+Target not created.
 Build Time Elapsed:  00:00:02
 </pre>
 </body>

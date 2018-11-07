@@ -1,11 +1,10 @@
-Output: Simple BOM
-Type  : SimpleBOM
-From  : Variant [[No Variations]] of Project [PCB_Electronic_Lab_v0.PrjPcb]
-   Generated File[Driver&Converter.BOM]
-   Generated File[Driver&Converter.CSV]
+Output: Mixed Sim
+Type  : AdvSimNetlist
+From  : Project [PCB_Electronic_Lab_v0.PrjPcb]
+   Generated File[PCB_Electronic_Lab_v0.nsx]
 
 
-Files Generated   : 2
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 20:05:03 On 28.10.2018
+Finished Output Generation At 22:47:04 On 29.10.2018

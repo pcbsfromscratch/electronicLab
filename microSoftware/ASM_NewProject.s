@@ -15,7 +15,7 @@ R			EQU 	0x0
 		EXPORT	__main
 
 __main
-		MOV	r0, #4
+		MOV	r0, #R
 		MOV	r1, #P
 		ADD	r2,r0,r1
 	

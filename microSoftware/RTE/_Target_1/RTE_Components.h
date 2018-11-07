@@ -14,8 +14,10 @@
 /*
  * Define the Device Header File: 
  */
-#define CMSIS_device_header "stm32f4xx.h"
+#define CMSIS_device_header "stm32f0xx.h"
 
-#define RTE_DEVICE_STARTUP_STM32F4XX    /* Device Startup for STM32F4 */
+#define RTE_DEVICE_STARTUP_STM32F0XX    /* Device Startup for STM32F0 */
+#define RTE_Drivers_SPI1                /* Driver SPI1 */
+        #define RTE_Drivers_SPI2                /* Driver SPI2 */
 
 #endif /* RTE_COMPONENTS_H */

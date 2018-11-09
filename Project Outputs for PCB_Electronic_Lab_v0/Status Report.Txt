@@ -1,10 +1,10 @@
-Output: Mixed Sim
-Type  : AdvSimNetlist
-From  : Project [PCB_Electronic_Lab_v0.PrjPcb]
-   Generated File[PCB_Electronic_Lab_v0.nsx]
+Output: Report Project Hierarchy
+Type  : ReportHierarchy
+From  : Variant [[No Variations]] of Project [PCB_Electronic_Lab_v0.PrjPcb]
+   Generated File[PCB2.REP]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 22:47:04 On 29.10.2018
+Finished Output Generation At 18:01:26 On 09.11.2018

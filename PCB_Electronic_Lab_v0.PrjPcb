@@ -2386,22 +2386,26 @@ DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB2.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB2.xls
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.nsx
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB2.xls
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=PCB_Electronic_Lab_v0.xls
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.nsx
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.xls
+DocumentPath=PCB_Electronic_Lab_v0.xls
 DItemRevisionGUID=
 
 [GeneratedDocument12]
+DocumentPath=Project Outputs for PCB_Electronic_Lab_v0\PCB_Electronic_Lab_v0.xls
+DItemRevisionGUID=
+
+[GeneratedDocument13]
 DocumentPath=Default Configuration\SystemBOM.xml
 DItemRevisionGUID=
 
@@ -2762,50 +2766,64 @@ Name=Report Outputs
 Description=
 TargetPrinter=Kyocera FS-1370DN XPS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Script
-OutputName1=Script Output
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=SimpleBOM
-OutputName2=Simple BOM
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=Filter
+Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=True|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1115|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=PCBDocument
+Configuration1_Item5=
+Configuration1_Name6=SortOrder
+Configuration1_Item6=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name7=VisibleOrder
+Configuration1_Item7=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|ComponentKind=100|LogicalDesignator=100|Model:Footprint=100|Models=100|PartType=100|PhysicalPath=100|Pins=100|Project=100|RevisionGUID=100|SourceLibraryName=100|Sub-Parts=100
+OutputType2=ComponentCrossReference
+OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=SimpleBOMView|SimpleBOMMode=0
-OutputType3=SinglePinNetReporter
-OutputName3=Report Single Pin Nets
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=Filter
+Configuration2_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration2_Name3=General
+Configuration2_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1115|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=Document=True
+Configuration2_Name5=SortOrder
+Configuration2_Item5=Document=Up|Designator=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=Comment=241|Description=102|Designator=102|Footprint=102|LibRef=102|Quantity=101
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=BOM_PartType
-OutputName4=Bill of Materials
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=ReportHierarchyView|ReportHierarchyMode=0
+OutputType4=Script
+OutputName4=Script Output
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration4_Name1=ColumnNameFormat
-Configuration4_Item1=CaptionAsName
-Configuration4_Name2=Filter
-Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration4_Name3=General
-Configuration4_Item3=OpenExported=False|AddToProject=True|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1115|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration4_Name4=GroupOrder
-Configuration4_Item4=Comment=True|Footprint=True
-Configuration4_Name5=PCBDocument
-Configuration4_Item5=FileName=PCB2.PcbDoc
-Configuration4_Name6=SortOrder
-Configuration4_Item6=Designator=Up|Comment=Up|Footprint=Up
-Configuration4_Name7=VisibleOrder
-Configuration4_Item7=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|Manufacturer 1=100|Supplier 1=100|Supplier Part Number=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Address1=100|Address2=100|Address3=100|Address4=100|Application_BuildNumber=100|ApprovedBy=100|Author=100|CheckedBy=100|Code_IPC=100|Code_JEDEC=100|CompanyName=100|Component Kind=100|ComponentKind=100|Library Name=100|Library Reference=100|LogicalDesignator=100|Manufacturer=100|Manufacturer Part Number 1=100|Model=100|Model:Footprint=100|Model:PCB3D=100|Model:Signal Integrity=100|Model:Simulation=100|Models=100|ModifiedDate=100|Mounting Technology=100|Operating Frequency(F) (Processor speed) (MHz)=100|Organization=100|PackageDescription=100|PackageReference=100|PackageVersion=100|Packing=100|PartNumber=100|PartType=100|PCB_Layout=100|PCB3D=100|PhysicalPath=100|Pins=100|Project=100|ProjectName=100|Published=100|Publisher=100|Revision=100|RevisionGUID=100|RoHS=100|Rule=100|SheetNumber=100|SheetTotal=100|Signal Integrity=100|Simulation=100|SourceLibraryName=100|Sub-Parts=100|Supplier Currency 1=100|Supplier Device Package=100|Supplier Order Qty 1=100|Supplier Stock 1=100|Supplier Subtotal 1=100|Supply Voltage(Vcc) max (V)=100|Supply Voltage(Vcc) min (V)=100
-OutputType5=ComponentCrossReference
-OutputName5=Component Cross Reference Report
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ReportHierarchy
-OutputName6=Report Project Hierarchy
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=SimpleBOMView|SimpleBOMMode=0
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
